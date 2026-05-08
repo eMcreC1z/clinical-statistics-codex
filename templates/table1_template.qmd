@@ -1,0 +1,20 @@
+---
+title: "Table 1"
+format: html
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+source("../../R/data_check.R")
+source("../../R/table1.R")
+```
+
+```{r}
+# Replace with project-specific data loading.
+# data <- read.csv("analysis_data.csv")
+# vars <- c("age", "sex", "baseline_score")
+# table1(data, vars = vars, strata = "treatment")
+```

@@ -1,0 +1,34 @@
+---
+title: "Survival Analysis Report"
+format: html
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+source("../../R/data_check.R")
+source("../../R/survival_pipeline.R")
+```
+
+## Endpoint Definition
+
+- Time origin:
+- Event:
+- Censoring:
+- Follow-up:
+
+## Kaplan-Meier Summary
+
+```{r}
+# km <- run_kaplan_meier(data, time = "time", event = "event", group = "group")
+# km
+```
+
+## Cox Model
+
+```{r}
+# cox <- run_cox_model(data, time = "time", event = "event", predictors = c("group", "age"))
+# summary(cox)
+```

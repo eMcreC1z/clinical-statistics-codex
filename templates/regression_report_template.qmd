@@ -1,0 +1,29 @@
+---
+title: "Regression Analysis Report"
+format: html
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+source("../../R/data_check.R")
+source("../../R/model_selection.R")
+source("../../R/regression_pipeline.R")
+```
+
+## Objective
+
+Estimate the association between `[EXPOSURE]` and `[OUTCOME]` in `[POPULATION]`.
+
+## Model
+
+```{r}
+# fit <- run_regression(data, outcome = "outcome", predictors = c("exposure", "age", "sex"))
+# extract_model_table(fit)
+```
+
+## Diagnostics
+
+Document convergence, influential observations, residual patterns, calibration, or other model-specific checks.

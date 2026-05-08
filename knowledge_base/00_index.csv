@@ -1,0 +1,12 @@
+id,title,file,primary_use,common_outputs
+01,Study Design,01_study_design.md,Choose design and estimand,design summary and analysis population
+02,Descriptive Statistics,02_descriptive_statistics.md,Summarize baseline and outcomes,Table 1 and missingness summary
+03,Group Comparison,03_group_comparison.md,Compare arms or exposure groups,effect estimates and p values
+04,Regression,04_regression.md,Adjusted association and prediction,model table and diagnostics
+05,Survival Analysis,05_survival_analysis.md,Time-to-event endpoints,Kaplan-Meier and Cox model
+06,Propensity Score,06_propensity_score.md,Confounding control in observational studies,balance table and weighted estimates
+07,Missing Data,07_missing_data.md,Plan and assess missingness,missingness profile and sensitivity analysis
+08,Multiplicity,08_multiplicity.md,Control false positives,multiplicity strategy
+09,Diagnostic Prediction,09_diagnostic_prediction.md,Diagnostic/prognostic model development,discrimination calibration decision curves
+10,Longitudinal Repeated Measures,10_longitudinal_repeated_measures.md,Repeated outcome modeling,MMRM or mixed model results
+11,Reporting Guidelines,11_reporting_guidelines.md,Manuscript and SAP reporting,checklist-based report text
