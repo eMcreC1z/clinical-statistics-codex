@@ -1,0 +1,12 @@
+"item","value"
+"source_rows",5735
+"complete_case_rows",5735
+"treated_complete_case",2184
+"control_complete_case",3551
+"ps_auc",0.798166925067798
+"caliper_logit_ps",0.278689026695164
+"matched_pairs",1563
+"max_abs_smd_before",0.501401941377612
+"max_abs_smd_after",0.0431265181443366
+"n_abs_smd_gt_0.1_before",45
+"n_abs_smd_gt_0.1_after",0
